@@ -1,0 +1,48 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebooks (if any, to keep image minimal)
+*.ipynb
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git metadata
+.git/
+.gitignore
+
+# Docker-related
+Dockerfile
+.dockerignore
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# PDF and JSON outputs (data/input/output)
+*.pdf
+*.json
+output/
+sample_pdfs/
+*.log
+
+# Dependency lock files (if unused)
+poetry.lock
+Pipfile.lock
+
+# Readmes and markdown docs (not needed inside image)
+*.md
+approach_explanation.md
