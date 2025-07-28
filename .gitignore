@@ -1,0 +1,40 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Virtual environments ===
+venv/
+.env/
+.envrc
+
+# === IDE/editor configs ===
+.vscode/
+.idea/
+*.swp
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
+# === Output artifacts ===
+*.log
+*.json
+output/
+*.pdf
+
+# === Jupyter Notebooks ===
+*.ipynb
+
+# === Docker ===
+*.dockerignore
+Dockerfile
+
+# === Dependency files
